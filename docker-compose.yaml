@@ -1,0 +1,7 @@
+services:
+#
+  openwakeword:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      no_cache: false
